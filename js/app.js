@@ -1,5 +1,5 @@
 const countdownElement = document.querySelector(".countdown");
-const items = document.querySelectorAll(".countdown-item > h4");
+const items = document.querySelectorAll(".countdown-item > h3");
 
 // Назначаем дату отсчета
 let countdownDate = new Date(2024, 7, 18, 10, 0, 0).getTime();
