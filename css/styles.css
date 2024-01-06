@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f1f5f8;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container p {
+    font-size: 18px;
+    margin: 16px 0;
+}
+.image{
+    margin-bottom: 16px;
+}
+
+.countdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    min-width: 320px;
+}
+
+.countdown-item {
+    background-color: orangered;
+    padding: 6px;
+    min-width: 65px;
+    border-radius: 20%;
+    transition: transform 200ms ease-in;
+}
+
+.expired {
+    color: #222;
+    margin: 0 auto;
+}
+h1 {
+    max-width: 310px;
+     font-size: 20px;
+     white-space: nowrap;
+     overflow: hidden;
+     border-right: 2px solid #ffa500;
+     /* Додаємо імітацію миготіння курсору */
+    margin-bottom: 8px;
+    color:orangered;
+ }
+ h2{
+    font-size: 18px;
+ }
+.countdown-item:hover{
+    transform: scale(1.15);
+}
